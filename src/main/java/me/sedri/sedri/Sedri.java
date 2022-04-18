@@ -33,6 +33,7 @@ public class Sedri {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    //a comment has been added
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
